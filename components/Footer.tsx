@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="h-auto m-auto bg-slate-500">
-      <div className="justify-between items-center py-5 w-full h-full pr-2 2xl:px-16">
+    <div className="h-auto m-auto bg-slate-500 block">
+      <div className="justify-between items-center py-[2rem] w-full h-full pr-2 2xl:px-16">
         <div className="flex justify-between text-justify p-3">
           <div>
             <h1 className="justify-center text-center text-xl">
@@ -20,7 +20,6 @@ export default function Footer() {
               <b>Tentang Kami</b>
             </h1>
             <div className="py-3">
-              <ul className="justify-center text-center text-xl">Team Kami</ul>
               <ul className="justify-center text-center text-xl">
                 Tanggung Jawab Kami
               </ul>
