@@ -44,7 +44,7 @@ const ResultData = () => {
               <h2>{name}</h2>
               <div className="py-[1rem]">{des}</div>
               <Link href={"/listharga"}>
-                <span className="text-gray-400">Beli Sekarang!</span>
+                <span className="text-gray-500 font-bold">Beli Sekarang!</span>
               </Link>
             </div>
           </div>
