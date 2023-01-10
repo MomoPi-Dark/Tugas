@@ -41,40 +41,10 @@ export default function Help() {
           </select>
         </div>
       </div>{" "}
-      <div className="justify-center items-center flex">
-        <div className="relative w-full lg:max-w-sm">
-          <select className="w-full p-2.5 text-gray-500 bg-white border rounded-md shadow-sm outline-none appearance-none focus:border-indigo-600">
-            <option>Cara Menggunakan</option>
-            <option>Cara Memesan</option>
-          </select>
-        </div>
-      </div>
-      <div className="justify-center items-center flex">
-        <div className="relative w-full lg:max-w-sm">
-          <select className="w-full p-2.5 text-gray-500 bg-white border rounded-md shadow-sm outline-none appearance-none focus:border-indigo-600">
-            <option>Cara Menggunakan</option>
-            <option>Cara Memesan</option>
-          </select>
-        </div>
-      </div>
-      <div className="justify-center items-center flex">
-        <div className="relative w-full lg:max-w-sm">
-          <select className="w-full p-2.5 text-gray-500 bg-white border rounded-md shadow-sm outline-none appearance-none focus:border-indigo-600">
-            <option>Cara Menggunakan</option>
-            <option>Cara Memesan</option>
-          </select>
-        </div>
-      </div>
-      <div className="justify-center items-center flex">
-        <div className="relative w-full lg:max-w-sm">
-          <select className="w-full p-2.5 text-gray-500 bg-white border rounded-md shadow-sm outline-none appearance-none focus:border-indigo-600">
-            <option>Cara Menggunakan</option>
-            <option>Cara Memesan</option>
-          </select>
-        </div>
-      </div>
       <div className="w-screen text-center justify-center py-10">
-        <h1 className="font-semibold mb-5">Tidak dapat menemukan jawaban?</h1>
+        <h1 className="font-semibold mb-5 text-xl">
+          Tidak dapat menemukan jawaban?
+        </h1>
         <h1>Lihat tutorial atau hubungi tim kami</h1>
       </div>
       <div className="flex items-center w-full h-full justify-center">
