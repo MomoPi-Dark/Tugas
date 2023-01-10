@@ -1,11 +1,10 @@
 import KebijakanPrivasiComponent from "../components/KebijakanPrivasi";
-import HeadTitle from "./HeadTitle";
+import Layout from "../layout/Layout";
 
-export default function KebijakanPrivasi() {
+export default function Page() {
   return (
-    <HeadTitle
-      component={<KebijakanPrivasiComponent />}
-      nameTitle={"Kebijakan Privasi"}
-    />
+    <Layout nameTitle="Kebijakan Privasi" userInterface={true}>
+      <KebijakanPrivasiComponent />
+    </Layout>
   );
 }

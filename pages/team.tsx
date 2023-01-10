@@ -1,8 +1,10 @@
 import TeamKamiComponent from "../components/TeamKami";
-import HeadTitle from "./HeadTitle";
+import Layout from "../layout/Layout";
 
 export default function Page() {
   return (
-    <HeadTitle component={<TeamKamiComponent />} nameTitle={"Produk Kami"} />
+    <Layout nameTitle="Team Kami" userInterface={true}>
+      <TeamKamiComponent />
+    </Layout>
   );
 }

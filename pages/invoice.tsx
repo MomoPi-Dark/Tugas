@@ -1,15 +1,15 @@
-import LoginComponent from "../components/Login";
+import Invoice from "../components/Pembayaran/Invoice";
 import Layout from "../layout/Layout";
 
-export default function LoginGuest() {
+export default function Page() {
   return (
     <Layout
-      nameTitle="Login"
+      nameTitle="Invoice"
       noFooter={true}
       noNavbar={true}
       userInterface={true}
     >
-      <LoginComponent />
+      <Invoice />
     </Layout>
   );
 }

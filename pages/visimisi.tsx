@@ -1,8 +1,10 @@
 import VisiMisiComponent from "../components/VisiMisi";
-import HeadTitle from "./HeadTitle";
+import Layout from "../layout/Layout";
 
 export default function Page() {
   return (
-    <HeadTitle component={<VisiMisiComponent />} nameTitle={"Visi Misi"} />
+    <Layout nameTitle="Visi Misi" userInterface={true}>
+      <VisiMisiComponent />
+    </Layout>
   );
 }

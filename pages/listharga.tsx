@@ -1,15 +1,15 @@
-import LoginComponent from "../components/Login";
+import ListHarga from "../components/ListHarga";
 import Layout from "../layout/Layout";
 
-export default function LoginGuest() {
+export default function Page() {
   return (
     <Layout
-      nameTitle="Login"
+      nameTitle="List Harga"
       noFooter={true}
       noNavbar={true}
       userInterface={true}
     >
-      <LoginComponent />
+      <ListHarga />
     </Layout>
   );
 }
