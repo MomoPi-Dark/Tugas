@@ -6,7 +6,7 @@ export function NavbarUser() {
   return (
     <div className="flex w-full h-24 z-[100]">
       <div className="flex justify-between items-center w-full h-full pr-2 2xl:px-16">
-        <Link href="/">
+        <Link href="/home">
           <Image src={image1} width={60} alt={"❤"} className="rounded-full" />
         </Link>
 
