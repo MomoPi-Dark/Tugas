@@ -101,7 +101,7 @@ export default function TeamKamiComponent() {
     },
     3
   );
-  
+
   return (
     <div className="flex-none md:flex-1 items-center justify-center w-full px-20 text-center py-20">
       <div className="font-bold text-3xl py-3">

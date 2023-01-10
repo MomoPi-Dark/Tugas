@@ -3,7 +3,7 @@ import Layout from "../layout/Layout";
 
 export default function Page() {
   return (
-    <Layout nameTitle="Home" userInterface={true}>
+    <Layout nameTitle="Home">
       <HomeComponent />
     </Layout>
   );

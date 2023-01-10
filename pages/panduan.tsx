@@ -3,7 +3,7 @@ import Layout from "../layout/Layout";
 
 export default function Page() {
   return (
-    <Layout nameTitle="Panduan Pemakaian" userInterface={true}>
+    <Layout nameTitle="Panduan Pemakaian">
       <PanduanPemakaian />
     </Layout>
   );

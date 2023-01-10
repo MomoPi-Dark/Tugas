@@ -3,12 +3,7 @@ import Layout from "../layout/Layout";
 
 export default function Pembayaran() {
   return (
-    <Layout
-      nameTitle="Pembayaran"
-      noFooter={true}
-      noNavbar={true}
-      userInterface={true}
-    >
+    <Layout nameTitle="Pembayaran" noFooter={true} noNavbar={true}>
       <PembayaranComponent />
     </Layout>
   );

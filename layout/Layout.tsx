@@ -1,14 +1,12 @@
 import Head from "next/head";
-import { useState } from "react";
 import Footer from "../components/Footer";
-import { NavbarGuest, NavbarUser } from "../components/Navbar";
+import { NavbarUser } from "../components/Navbar";
 
 interface Layout {
   children: React.ReactNode;
   nameTitle: string;
   noFooter?: boolean;
   noNavbar?: boolean;
-  userInterface?: boolean;
 }
 
 export default function Layout({
@@ -16,14 +14,9 @@ export default function Layout({
   nameTitle,
   noFooter = false,
   noNavbar = false,
-  userInterface = false,
 }: Layout) {
   const Footers = noFooter ? null : <Footer />;
-  const Navbars = noNavbar ? null : userInterface ? (
-    <NavbarUser />
-  ) : (
-    <NavbarGuest />
-  );
+  const Navbars = noNavbar ? null : <NavbarUser />;
 
   return (
     <div>

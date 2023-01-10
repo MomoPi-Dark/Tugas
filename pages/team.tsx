@@ -3,7 +3,7 @@ import Layout from "../layout/Layout";
 
 export default function Page() {
   return (
-    <Layout nameTitle="Team Kami" userInterface={true}>
+    <Layout nameTitle="Team Kami">
       <TeamKamiComponent />
     </Layout>
   );

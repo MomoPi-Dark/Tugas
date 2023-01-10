@@ -3,7 +3,7 @@ import Layout from "../layout/Layout";
 
 export default function Page() {
   return (
-    <Layout nameTitle="Kebijakan Privasi" userInterface={true}>
+    <Layout nameTitle="Kebijakan Privasi">
       <KebijakanPrivasiComponent />
     </Layout>
   );
