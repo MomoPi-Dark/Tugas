@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { GetImage } from "../config";
@@ -11,7 +12,7 @@ const Slideshow = () => {
 
   const If = images.length <= 1 ? false : true;
   return (
-    <div className="px-72 py-14">
+    <div className="mx-72 my-14">
       <div>
         <Slide
           indicators={If}
@@ -29,7 +30,7 @@ const Slideshow = () => {
                 <Image
                   loader={myLoader.loader}
                   src={myLoader.image}
-                  className="object-contain"
+                  className="object-contain rounded-3xl"
                   alt={`${x}/${index}`}
                   width="800"
                   height="800"
@@ -38,6 +39,23 @@ const Slideshow = () => {
             );
           })}
         </Slide>
+      </div>
+      <div className="text-center justify-center py-52">
+        <h1 className="font-bold text-3xl">
+          JIKA ANDA TERTARIK SILAHKAN KLIK DIBAWAH INI
+        </h1>
+        <div className="p-2 text-center justify-center">
+          <div className="flex w-full h-24 z-[100]">
+            <div className="flex justify-center items-center w-full h-full">
+              <Link
+                href={"/produk"}
+                className="flex bg-white text-black active:bg-white hover:bg-white justify-center items-center gap-2 font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
+              >
+                BELI SEKARANG!
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

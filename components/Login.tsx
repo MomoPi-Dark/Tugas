@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaDiscord, FaGithub, FaRegEnvelope } from "react-icons/fa";
+import { FaDiscord, FaRegEnvelope } from "react-icons/fa";
 import { MdLockOutline } from "react-icons/md";
 
 export default function Login() {
@@ -9,11 +9,11 @@ export default function Login() {
         <div className="bg-gray-200 rounded-2xl shadow-2xl flex w-2/3 max-w-4xl">
           <div className="w-3/5 p-5">
             <div className="text-left font-bold">
-              <span className="text-orange-400">Dev</span> Nacil
+              <span className="text-orange-400">Dev</span> Commissions
             </div>
             <div className="py-10">
               <h2 className={`text-3xl font-bold text-orange-400 mb-2`}>
-                Sign in to Account
+                Masuk ke Akun
               </h2>
               <div className="border-2 w-10 border-orange-400 inline-block mb-2"></div>
               <div className="flex justify-center my-2">
@@ -23,14 +23,8 @@ export default function Login() {
                 >
                   <FaDiscord className="text-sm" />
                 </Link>
-                <Link
-                  href="/home"
-                  className="border-2 border-orange-400 rounded-full p-3 mx-1"
-                >
-                  <FaGithub className="text-sm" />
-                </Link>
               </div>
-              <p className="my-3">or use your email account</p>
+              <p className="my-3">atau menggunakan akun email Anda</p>
               <div className="flex flex-col items-center">
                 <div className="bg-orange-400 w-64 p-2 flex items-center mb-3">
                   <FaRegEnvelope className="m-2" />
@@ -58,7 +52,7 @@ export default function Login() {
                     Remember
                   </label>
                   <Link href="/login" className="text-xs">
-                    Forgot Password?
+                    Lupa Sandi?
                   </Link>
                 </div>
               </div>
@@ -66,7 +60,7 @@ export default function Login() {
                 href="/home"
                 className="border-2 border-orange-400 rounded-full px-12 py-2 inline-block font-semibold hover:bg-white hover:text-orange-400"
               >
-                Sign in
+                Masuk
               </Link>
             </div>
           </div>
@@ -75,7 +69,7 @@ export default function Login() {
           >
             <h2 className="text-3xl font-bold mb-2">Halo Friends!</h2>
             <div className="border-2 w-10 border-white inline-block mb-2"></div>
-            <p>Selamat datang di Dev Nacil</p>
+            <p>Selamat datang di Dev Commissions</p>
           </div>
         </div>
       </div>

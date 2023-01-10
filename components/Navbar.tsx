@@ -26,15 +26,20 @@ export function NavbarUser() {
               <Link href="/produk" className="text-lg hover:border-b">
                 Produk Kami
               </Link>
-            </li>{" "}
+            </li>
             <li className="ml-10">
               <Link href="/team" className="text-lg hover:border-b">
                 Team Kami
               </Link>
             </li>
+            <li className="ml-10">
+              <Link href="/help" className="text-lg hover:border-b">
+                Bantuan
+              </Link>
+            </li>
             <li className="ml-14">
               <Link href="/" className="text-lg hover:border-b">
-                Logout
+                Keluar
               </Link>
             </li>
           </ul>

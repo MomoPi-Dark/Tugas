@@ -28,9 +28,9 @@ const ResultData = () => {
 
     return (
       <div className="flex mb-[16px] p-[8px]" key={`${name} ${index}`}>
-        <div className="shadow-2xl rounded-2xl">
+        <div className="shadow hover:shadow-2xl outline-none focus:outline-none">
           <div className="text-center w-[17rem] p-[20px]">
-            <div className="block mr-auto ml-auto w-[50%]">
+            <div className="py-3 mr-auto ml-auto w-[50%]">
               <Image
                 className="rounded-full"
                 loader={getImage.loader}
@@ -43,9 +43,34 @@ const ResultData = () => {
             <div className="py-4 px-2">
               <h2>{name}</h2>
               <div className="py-[1rem]">{des}</div>
-              <Link href={"/listharga"}>
-                <span className="text-gray-500 font-bold">Beli Sekarang!</span>
-              </Link>
+              <div>
+                <div>
+                  <div className="p-2 text-center justify-center">
+                    <div className="flex w-full z-[100]">
+                      <div className="flex justify-center items-center w-full h-full">
+                        <Link
+                          href={"/listharga"}
+                          className="flex bg-white text-black active:bg-white hover:bg-white justify-center items-center gap-2 font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
+                        >
+                          Order
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-2 text-center justify-center">
+                    <div className="flex w-full z-[100]">
+                      <div className="flex justify-center items-center w-full h-full">
+                        <Link
+                          href={"/testimoni"}
+                          className="flex bg-white text-black active:bg-white hover:bg-white justify-center items-center gap-2 font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
+                        >
+                          Testimoni
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

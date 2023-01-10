@@ -29,7 +29,7 @@ export default function Invoice() {
             <div className="flex justify-center items-center py-2">
               <Link
                 href={"/home"}
-                className="flex bg-white text-black active:bg-red-500 hover:bg-red-500 justify-center items-center gap-2 font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
+                className="flex bg-white text-black active:bg-white hover:bg-white justify-center items-center gap-2 font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
               >
                 Close
               </Link>

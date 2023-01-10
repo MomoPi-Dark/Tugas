@@ -39,7 +39,7 @@ export default function Footer() {
             </h1>
             <div className="py-3">
               <ul className="justify-center text-center text-xl">
-                <Link href={"/"}>Discord</Link>
+                <Link href={link}>Discord</Link>
               </ul>
             </div>
           </div>

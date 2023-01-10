@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import { MapToArray } from "../../config";
-import HomePayment from "./HomePayment";
+import HomePayment from "./Index";
 import PaymentChoice from "./PilihPembayaran";
 
 function PembayaranComponent() {

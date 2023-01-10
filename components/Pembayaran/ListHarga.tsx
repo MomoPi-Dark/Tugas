@@ -18,7 +18,7 @@ export default function ListHarga() {
         <div className="flex items-center justify-center w-full text-center">
           <div className="bg-white rounded-2xl shadow-2xl w-11/12 max-w-2xl">
             <div className="p-10">
-              <h1 className="font-bold text-2xl">List Bot</h1>
+              <h1 className="font-bold text-2xl">List Produk</h1>
             </div>
             <div className="flex justify-around p-2">
               <div>

@@ -1,4 +1,4 @@
-import ListHarga from "../components/ListHarga";
+import ListHarga from "../components/Pembayaran/ListHarga";
 import Layout from "../layout/Layout";
 
 export default function Page() {
